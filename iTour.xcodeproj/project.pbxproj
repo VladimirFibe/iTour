@@ -13,6 +13,8 @@
 		0263C16D2AE0D21100700578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0263C16C2AE0D21100700578 /* Preview Assets.xcassets */; };
 		0263C1752AE0D32600700578 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0263C1742AE0D32600700578 /* Destination.swift */; };
 		0263C1772AE0DA6100700578 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0263C1762AE0DA6100700578 /* EditDestinationView.swift */; };
+		0263C1792AE0ED3F00700578 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0263C1782AE0ED3F00700578 /* DestinationListingView.swift */; };
+		0263C17B2AE1097300700578 /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0263C17A2AE1097300700578 /* Sight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0263C1732AE0D23900700578 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0263C1742AE0D32600700578 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		0263C1762AE0DA6100700578 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
+		0263C1782AE0ED3F00700578 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		0263C17A2AE1097300700578 /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 				0263C1652AE0D21000700578 /* iTourApp.swift */,
 				0263C1672AE0D21000700578 /* ContentView.swift */,
 				0263C1762AE0DA6100700578 /* EditDestinationView.swift */,
+				0263C1782AE0ED3F00700578 /* DestinationListingView.swift */,
 				0263C1742AE0D32600700578 /* Destination.swift */,
+				0263C17A2AE1097300700578 /* Sight.swift */,
 				0263C1692AE0D21100700578 /* Assets.xcassets */,
 				0263C16B2AE0D21100700578 /* Preview Content */,
 			);
@@ -148,7 +154,9 @@
 				0263C1682AE0D21000700578 /* ContentView.swift in Sources */,
 				0263C1662AE0D21000700578 /* iTourApp.swift in Sources */,
 				0263C1752AE0D32600700578 /* Destination.swift in Sources */,
+				0263C17B2AE1097300700578 /* Sight.swift in Sources */,
 				0263C1772AE0DA6100700578 /* EditDestinationView.swift in Sources */,
+				0263C1792AE0ED3F00700578 /* DestinationListingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

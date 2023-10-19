@@ -3,6 +3,7 @@ import SwiftData
 
 struct EditDestinationView: View {
     @Bindable var destination: Destination
+    @State private var text = ""
     var body: some View {
         Form {
             TextField("Name", text: $destination.name)
@@ -17,9 +18,27 @@ struct EditDestinationView: View {
                 }
                 .pickerStyle(.segmented)
             }
+
+            Section("Sites") {
+                List(destination.sights) { sight in
+                    Text(sight.name)
+                }
+                HStack {
+                    TextField("Sight", text: $text)
+                        .textFieldStyle(.roundedBorder)
+                    .onSubmit(addSight)
+                    Button("Add", action: addSight)
+                }
+            }
         }
         .navigationTitle("Edit destination")
         .navigationBarTitleDisplayMode(.inline)
+    }
+
+    func addSight() {
+        guard !text.isEmpty else { return }
+        destination.sights.append(Sight(name: text))
+        text = ""
     }
 }
 
