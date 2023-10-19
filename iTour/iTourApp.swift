@@ -1,11 +1,5 @@
-//
-//  iTourApp.swift
-//  iTour
-//
-//  Created by Vladimir Fibe on 19.10.2023.
-//
-
 import SwiftUI
+import SwiftData
 
 @main
 struct iTourApp: App {
@@ -13,5 +7,6 @@ struct iTourApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Destination.self)
     }
 }
